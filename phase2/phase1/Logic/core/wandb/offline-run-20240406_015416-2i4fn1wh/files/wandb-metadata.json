@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.6",
+    "heartbeatAt": "2024-04-05T22:24:16.269583",
+    "startedAt": "2024-04-05T22:24:16.132342",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "evaluation.py",
+    "codePathLocal": "evaluation.py",
+    "codePath": "logic\\core\\evaluation.py",
+    "git": {
+        "remote": "https://github.com/Davooddkareshki/MIR",
+        "commit": "1c8e17929e3647dc416596ad9a648b80a3f11cd9"
+    },
+    "email": "dkareshki@gmail.com",
+    "root": "C:/Users/sazegar/MIR",
+    "host": "DESKTOP-VJ7565A",
+    "username": "sazegar",
+    "executable": "C:\\Users\\sazegar\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1203.0,
+        "min": 0.0,
+        "max": 3110.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1203.0,
+            "min": 0.0,
+            "max": 3110.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 200.07197952270508,
+            "used": 145.83953475952148
+        }
+    },
+    "memory": {
+        "total": 7.698482513427734
+    }
+}
