@@ -1,0 +1,29 @@
+.metric-card-title {
+	<style>
+.metric-card {
+    background-color: #f3f4f6 !important;  /* Background color */
+    padding: 10px !important;  /* Padding around the card */
+    border-radius: 10px !important;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;  /* Shadow for the card */
+}
+
+.metric-card-title {
+    font-size: 24px !important; /* Adjust the font size */
+    color: #1f2e2e !important;  /* Text color */
+    margin-bottom: 5px !important;  /* Bottom margin for title */
+}
+
+.metric-card-content {
+    font-size: 18px !important;  /* Font size for content */
+    color: #333333 !important;  /* Text color for content */
+}
+
+.metric-card-icon {
+    font-size: 30px !important;  /* Size of the icon */
+    color: #ff5733 !important;  /* Color of the icon */
+    margin-right: 10px !important;  /* Right margin of the icon */
+}
+</style>
+
+
+}

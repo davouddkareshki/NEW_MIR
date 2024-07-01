@@ -128,21 +128,12 @@ class LinkAnalyzer:
             u = map_nodes[edge[0]]
             v = map_nodes[edge[1]] 
             A[u][v] = 1 
-        
-        P = A 
-        alpha = 0.1
-        yek = np.ones(self.N) 
-        for i in range(self.N) : 
-            P[i] = (1-alpha) * P[i] + alpha * yek 
-        
+
         h = np.ones(self.N)
         a = np.ones(self.N)
-       # print(P.shape) 
-       # print(self.N)
-        #print(P)
         for _ in range(num_iteration) : 
-            new_h = np.matmul(P,a) 
-            new_a = np.matmul(np.transpose(P) ,h) 
+            new_h = np.matmul(A,a) 
+            new_a = np.matmul(np.transpose(A) ,h) 
             a = new_a 
             h = new_h 
         
